@@ -1,0 +1,212 @@
+
+/* Estilos do Header */
+header {
+    
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 0.212);
+    width: 80%;
+    max-width: 980px;
+    height: 23vh;
+    
+  }
+  .header1{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: var(--color-title);
+    width: 100%;
+    color: white;
+    padding: 10px;
+  
+  }
+  
+  .logo_cabecalho > img{
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+  }
+  .info_lg > a{
+    margin: 2px;
+    padding: 0px 25px;
+    color: white;
+    border: 1px solid var(--color-title);
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 18px;
+    
+  }
+  .header1 > a:hover{
+    background-color: white;
+    color: var(--color-title);
+  }
+  .header2{
+    width: 100%;
+  }
+  .logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    
+  }
+  #logo{
+    width: 75px;
+    height: 75px;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  label{
+    display: flex;
+    justify-content: center;
+    color: black;
+
+  }
+  .infos_geral{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .infos_reserva{
+    display: block;
+
+  }
+  input{
+    width: 13vw;
+    height: 30px;
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    margin: 2px;
+    outline: none;
+  }
+  #location{
+    width: 20vw;
+  }
+  .btn_buscar{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: #0177ec;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  button:hover{
+    background-color: #1E90FF;
+  }
+  @media (max-width: 1022){
+    img{
+      width: 350px;
+      height: 350px;
+    }
+  }
+  @media (max-width: 768px){
+
+    header{
+      border: none;
+      margin: 0 auto;
+      display: block;
+    }
+    .header1{
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+      border: none;
+      margin: 20px auto;
+      background-color: white;
+    }
+    .header2{
+      margin: 100px;
+    }
+    .logo{
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0;
+
+    }
+    .info_lg{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      border: none;
+      background-color: none;
+
+    }
+    .info_lg > a{
+      border: none;
+      color: black;
+      padding: 5px;
+      margin: 10px 0;
+      background-color: none;
+      border: 1px solid black;
+      transition: .3s;
+    }
+    .info_lg > a:hover{
+      color: white;
+      background-color: var(--color-title);
+      border: none;
+    }
+    .header2{
+      display: flex;
+      flex-direction: column;
+      margin: 1px;
+      border-bottom: 1px solid gray;
+
+    }
+    label{
+      display: flex;
+      justify-content: left;
+    }
+    .infos_geral{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items: left;
+      height: 30vh;
+      
+    }
+    input{
+      width: 100%;
+      border: 1px solid black;
+      
+    }
+    #location{
+      width: 100%;
+      border: 1px solid black;
+      font-size: 15px;
+    }
+    button{
+      margin: 15px 0;
+      width: 104%;
+      height: 35px;
+      border-radius: 10px;
+
+    }
+    
+  }
+
+  

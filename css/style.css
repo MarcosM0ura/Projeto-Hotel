@@ -1,0 +1,7 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+:root{
+    --color-title: #0a07be;
+}
